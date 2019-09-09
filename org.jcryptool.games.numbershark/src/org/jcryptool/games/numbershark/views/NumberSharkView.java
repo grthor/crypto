@@ -92,6 +92,7 @@ public class NumberSharkView extends ViewPart {
         playingField = new Composite(sashForm, SWT.NONE);
         playingField.setLayout(new GridLayout(1, false));
         playingField.setLayoutData(new GridData(GridData.FILL, GridData.FILL, true, true));
+        playingField.setBackground(Display.getCurrent().getSystemColor(SWT.COLOR_RED));
 
         Composite lowerContent = new Composite(sashForm, SWT.NONE);
         lowerContent.setLayout(new GridLayout(1, false));

@@ -10,4 +10,5 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>org.jcryptool.visual.feature</artifactId>
 	<packaging>eclipse-feature</packaging>
+	<version>1.0.2</version>
 </project>
